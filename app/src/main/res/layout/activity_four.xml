@@ -1,0 +1,270 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    tools:context="com.example.sayemalhasan.mnn.FourActivity">
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="3"
+        >
+        <TextView
+            android:textColor="@color/blue"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="25sp"
+            android:text="রোগের নাম"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:textColor="@color/blue"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="25sp"
+            android:text="টিকার নাম "
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:textColor="@color/blue"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="25sp"
+            android:text="বয়স"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="5"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:layout_weight="1"
+                android:id="@+id/c1"
+                android:text="শিশুদের যক্ষ্মা"
+                android:textSize="14sp"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+
+            <CheckBox
+                android:layout_weight="1"
+                android:id="@+id/c2"
+                android:text="হেপাটাইটিস-বি"
+
+                android:textSize="14sp"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+
+            <CheckBox
+                android:layout_weight="1"
+                android:id="@+id/c3"
+                android:text="নিউমোকক্কাল নিউমোনিয়া"
+
+                android:textSize="14sp"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+
+            <CheckBox
+                android:layout_weight="1"
+                android:id="@+id/c4"
+                android:text="হাম ও রুবেলা"
+
+                android:textSize="14sp"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+
+            <CheckBox
+                android:layout_weight="1"
+                android:id="@+id/c5"
+                android:text="হাম"
+
+                android:textSize="14sp"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="বি সি জি"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="পেস্টাভ্যালেন্ট"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="ও পি ভি"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="এম আর টিকা"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="হামের টিকা"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="৬ সপ্তাহ"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="১০ সপ্তাহ"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="৯ সপ্তাহ"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="১৫ সপ্তাহ"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="১০ সপ্তাহ"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

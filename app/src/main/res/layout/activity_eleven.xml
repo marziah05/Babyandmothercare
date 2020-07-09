@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+            android:background="#FFFF"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="কুসংস্কার"
+            android:textSize="27sp"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="করনীয়"
+            android:textSize="27sp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/dhari"
+        />
+
+    <TextView
+        android:text="# ডিম, মাছ, মাংস খেলে বাচ্চা বড় হয়ে যায় যার কারনে প্রসবে কষ্ট হয়।"
+        android:textSize="27sp"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

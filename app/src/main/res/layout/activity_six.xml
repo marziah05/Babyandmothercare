@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/contentPedding"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="15"
+        >
+        <TextView
+            android:typeface="monospace"
+            android:textColor="@color/text"
+            android:layout_weight="2"
+            android:textSize="@dimen/waysHeading"
+            android:text="@string/waysHeading"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" />
+        <ScrollView
+            android:layout_weight="13"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:weightSum="21"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="700dp">
+                    <LinearLayout
+                        android:weightSum="9"
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="@dimen/margin" >
+                        <ImageView
+                            android:layout_weight="2"
+                            android:src="@drawable/heatlhyfood"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imageView1"
+                            />
+                        <Button
+                            android:id="@+id/t1"
+                            android:typeface="monospace"
+                            android:background="@color/gray"
+                            android:textSize="@dimen/waysText"
+                            android:text="স্বাস্থ্যকর খাবার"
+                            android:textAlignment="center"
+                            android:layout_weight="7"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:weightSum="9"
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="@dimen/margin" >
+                        <ImageView
+                            android:layout_weight="2"
+                            android:src="@drawable/healthcare"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imageView2"
+                            />
+                        <Button
+                            android:id="@+id/t2"
+                            android:typeface="monospace"
+                            android:background="@color/gray"
+                            android:textSize="@dimen/waysText"
+                            android:text="নিয়মিত স্বাস্থ্য পরীক্ষা"
+                            android:textAlignment="center"
+                            android:layout_weight="7"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"  />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:weightSum="9"
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="@dimen/margin" >
+                        <ImageView
+                            android:layout_weight="2"
+                            android:src="@drawable/beamicon"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imageView3"
+                            />
+                        <Button
+                            android:id="@+id/t3"
+                            android:typeface="monospace"
+                            android:background="@color/gray"
+                            android:textSize="@dimen/waysText"
+                            android:text="পর্যাপ্ত বিশ্রাম ও ব্যায়াম"
+                            android:textAlignment="center"
+                            android:layout_weight="7"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:weightSum="9"
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="@dimen/margin" >
+                        <ImageView
+                            android:layout_weight="2"
+                            android:src="@drawable/familyhelp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imageView4"
+                            />
+                        <Button
+                            android:id="@+id/t4"
+                            android:typeface="monospace"
+                            android:background="@color/gray"
+                            android:textSize="@dimen/waysText"
+                            android:text="পারিবারিক সহযোগিতা"
+                            android:layout_weight="7"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:weightSum="9"
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="@dimen/margin" >
+                        <ImageView
+                            android:layout_weight="2"
+                            android:src="@drawable/sixto2years"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imageView5"
+                            />
+                        <Button
+                            android:id="@+id/t5"
+                            android:typeface="monospace"
+                            android:background="@color/gray"
+                            android:textSize="@dimen/waysText"
+                            android:text="শিশুর গ্রোথ পরীক্ষা"
+                            android:layout_weight="7"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:weightSum="9"
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="@dimen/margin" >
+                        <ImageView
+                            android:layout_weight="2"
+                            android:src="@drawable/tika"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imageView6"
+                            />
+                        <Button
+                            android:id="@+id/t6"
+                            android:typeface="monospace"
+                            android:background="@color/gray"
+                            android:textSize="@dimen/waysText"
+                            android:text="মায়ের টিকা"
+                            android:layout_weight="7"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:weightSum="9"
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="@dimen/margin" >
+                        <ImageView
+                            android:layout_weight="2"
+                            android:src="@drawable/prosobporikolpona"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imageView7"
+                            />
+                        <Button
+                            android:id="@+id/t7"
+                            android:typeface="monospace"
+                            android:background="@color/gray"
+                            android:textSize="@dimen/waysText"
+                            android:text="প্রসব পরিকল্পনা"
+                            android:layout_weight="7"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

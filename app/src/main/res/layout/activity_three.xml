@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="15"
+    android:paddingTop="@dimen/margin"
+    android:paddingBottom="@dimen/margin"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:weightSum="9"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin" >
+        <ImageView
+            android:layout_weight="2"
+            android:src="@drawable/pregnant"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView1"
+            />
+        <Button
+            android:id="@+id/t1"
+            android:typeface="monospace"
+            android:background="@color/gray"
+            android:textSize="@dimen/waysText"
+            android:text="গর্ভকালীন যত্ন"
+            android:textAlignment="center"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="9"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin" >
+        <ImageView
+            android:layout_weight="2"
+            android:src="@drawable/deleverytime"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView2"
+            />
+        <Button
+            android:id="@+id/t2"
+            android:typeface="monospace"
+            android:background="@color/gray"
+            android:textSize="@dimen/waysText"
+            android:text="প্রসব কালীন যত্ন"
+            android:textAlignment="center"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"  />
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="9"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin" >
+        <ImageView
+            android:layout_weight="2"
+            android:src="@drawable/after6month"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView3"
+            />
+        <Button
+            android:id="@+id/t3"
+            android:typeface="monospace"
+            android:background="@color/gray"
+            android:textSize="@dimen/waysText"
+            android:text="প্রসব পরবর্তী ছয় মাসের যত্ন"
+            android:textAlignment="center"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="9"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin" >
+        <ImageView
+            android:layout_weight="2"
+            android:src="@drawable/sixto2years"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView4"
+            />
+        <Button
+            android:id="@+id/t4"
+            android:typeface="monospace"
+            android:background="@color/gray"
+            android:textSize="@dimen/waysText"
+            android:text="ছয় মাস থেকে দুই বছরের শিশুর যত্ন"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="9"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin" >
+        <ImageView
+            android:layout_weight="2"
+            android:src="@drawable/tika"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView5"
+            />
+        <Button
+            android:id="@+id/t5"
+            android:typeface="monospace"
+            android:background="@color/gray"
+            android:textSize="@dimen/waysText"
+            android:text="দুই থেকে পাঁচ বছরের শিশুর যত্ন"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

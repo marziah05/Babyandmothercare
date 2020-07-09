@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Dimens for activity-main -->
+    <dimen name="contentPedding">10dp</dimen>
+    <dimen name="mainHeading">40sp</dimen>
+    <dimen name="title">30sp</dimen>
+
+    <!-- Dimens for activity_six-->
+
+    <dimen name="margin">12dp</dimen>
+    <dimen name="margin2">20dp</dimen>
+    <dimen name="margin3">30dp</dimen>
+    <dimen name="waysHeading">28sp</dimen>
+    <dimen name="waysText">30sp</dimen>
+
+</resources>
